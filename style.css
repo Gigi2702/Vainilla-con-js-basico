@@ -1,0 +1,43 @@
+
+section{
+    width: 100%;
+    min-height: 100vh;
+    padding: 30px 0 100px;
+    text-align: center;
+    background-color: rgb(233, 221, 63);
+}
+
+h1{
+    color: #3a3403;
+    font-size: 52px;
+}
+
+h2{
+    color: #fff;
+    font-size: 40px;
+    font-style: italic;
+}
+p{
+    color: #242109;
+    font-size: 22px;
+    font-style: bold;
+}
+
+
+button{
+    background-color: transparent;
+    color: rgb(61, 43, 3);
+    padding: 14px 40px;
+    border: 2px solid rgb(232, 236, 189);
+    border-radius: 50px;
+    font-style: italic;
+    margin: 20px;
+    transition: .4s;
+    cursor: pointer;
+}
+
+button:hover{
+    background: rgb(50, 53, 11);
+    color: #ffffff;
+    border-radius: 0;
+}
